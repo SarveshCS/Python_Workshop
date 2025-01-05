@@ -1,0 +1,1 @@
+(RECAP OF PREVIOUS DAY) Scope rules and namespaces, Recursion, Lambda functions, Functional programming tools: map, filter, reduce. Problems on above concepts.

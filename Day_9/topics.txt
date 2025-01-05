@@ -1,0 +1,1 @@
+(RECAP OF PREVIOUS DAY) Sequences: Packing and unpacking, Mutable vs. immutable sequences, Strings: Advanced methods, Lists and list comprehensions, Tuples, Problems on above concepts.

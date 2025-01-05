@@ -1,0 +1,1 @@
+(RECAP OF PREVIOUS DAY) Purpose and types of loops, while loop, for loop, else with loops, Nested loops, break, continue, and pass statements. Problems on above concepts.

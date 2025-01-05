@@ -1,0 +1,1 @@
+(RECAP OF PREVIOUS DAY) Keywords and identifiers, Variables and data types, Type conversion, Operators in Python (Arithmetic, Logical, etc.), Operator precedence and associativity. Problems on above concepts.

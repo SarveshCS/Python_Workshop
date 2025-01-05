@@ -1,0 +1,1 @@
+(RECAP OF PREVIOUS DAY) if statement, if-else statement, Nested if and elif statements, Practical examples and exercises. Activity: First assessment from topics taught between Day-1 to Day-3.

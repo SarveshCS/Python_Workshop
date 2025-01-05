@@ -1,0 +1,1 @@
+(RECAP OF PREVIOUS DAY) Expressions in Python, Strings: Basics, indexing, slicing, and formatting, Basic string operations and methods. Problems on above concepts.

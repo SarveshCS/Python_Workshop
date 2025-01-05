@@ -1,0 +1,1 @@
+(RECAP OF PREVIOUS DAY) Introduction to functions and function calls, Function arguments (default, keyword, arbitrary arguments), Mutability and immutability, Built-in functions. Problems on above concepts.
