@@ -9,6 +9,7 @@ venv/
 # Ignore log and temporary files
 *.log
 *.tmp
+*__tmp.py
 
 # Ignore system-specific files
 .DS_Store
