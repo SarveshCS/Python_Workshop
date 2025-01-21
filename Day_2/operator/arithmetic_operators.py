@@ -1,5 +1,5 @@
-a = 10
-b = 3
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
 
 addition = a + b
 subtraction = a - b

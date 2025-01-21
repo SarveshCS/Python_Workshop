@@ -1,6 +1,6 @@
 # Initial value
-a = 10  # 1010 in binary
-b = 4   # 0100 in binary
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
 
 # Bitwise AND
 result = a & b

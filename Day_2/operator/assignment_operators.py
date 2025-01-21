@@ -1,5 +1,5 @@
 # Initial value
-a = 10
+a = int(input("Enter a: "))
 
 # Assignment operator
 a = 5

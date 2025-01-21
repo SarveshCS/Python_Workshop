@@ -1,6 +1,6 @@
 # Initial values
-a = True
-b = False
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
 
 # Logical AND
 result = a and b

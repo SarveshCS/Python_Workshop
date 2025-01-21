@@ -1,5 +1,5 @@
-a = 10
-b = 20
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
 
 equal = a == b
 not_equal = a != b
