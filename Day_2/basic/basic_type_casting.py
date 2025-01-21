@@ -1,5 +1,4 @@
 x = 10
-
 print(int(x))   # Cast to int
 print(float(x)) # Cast to float
 
