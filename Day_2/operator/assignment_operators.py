@@ -1,6 +1,6 @@
 # Initial value
 a = int(input("Enter a: "))
-
+t = a
 # Assignment operator
 a = 5
 print("Assignment:", a)
@@ -34,6 +34,7 @@ a //= 2
 print("Floor division and assign:", a)
 
 # Bitwise AND and assign
+a = t
 a &= 1
 print("Bitwise AND and assign:", a)
 
