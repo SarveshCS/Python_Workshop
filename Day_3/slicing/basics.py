@@ -1,8 +1,6 @@
-lst = [2, 9, 4, 6, 8, 1, 4, 8]
+lst = [2, 9, 4, 6, 8, 1, 4, 8, 54, 85,5, 5]
 
-## Positive indexing examples
-print("Positive indexing: ")
-
+print(lst[-5:-10:-1])
 print(lst[::])
 print(lst[:])
 print(lst[::-1])
