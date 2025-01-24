@@ -11,6 +11,7 @@ while s > 0:
     d += (s%10)**i
     s//=10
     i+=1
+    
 if d == t:
     print(f'{t} is Disarium number')
 else:
