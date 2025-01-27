@@ -1,0 +1,1 @@
+print(list(filter(lambda x: not int(x)%2, input('Enter the numbers: ').split())))
