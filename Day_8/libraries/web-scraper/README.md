@@ -5,8 +5,8 @@ This project is a Python library designed for web scraping, data analysis, and v
 ## Project Structure
 
 ```
-my-python-library
-├── web_scrape
+web-scraper
+├── web_scraper
 │   ├── __init__.py
 │   ├── content.py
 │   ├── metadata.py
@@ -28,20 +28,20 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. **Web Scraping**: Use the `ContentScraper` class from `web_scrape.content` to fetch and parse content from a URL.
-2. **Metadata Extraction**: Utilize the `MetadataExtractor` class from `web_scrape.metadata` to extract metadata and titles from the HTML content.
-3. **Data Analysis**: The `DataAnalyzer` class in `web_scrape.data_analysis` can be used to analyze the scraped data and generate reports.
-4. **Data Visualization**: Use the `DataVisualizer` class from `web_scrape.data_visualization` to create and display visualizations of the data.
-5. **Machine Learning**: The `ModelTrainer` class in `web_scrape.machine_learning` allows you to train and evaluate machine learning models on the data.
+1. **Web Scraping**: Use the `ContentScraper` class from `web_scraper.content` to fetch and parse content from a URL.
+2. **Metadata Extraction**: Utilize the `MetadataExtractor` class from `web_scraper.metadata` to extract metadata and titles from the HTML content.
+3. **Data Analysis**: The `DataAnalyzer` class in `web_scraper.data_analysis` can be used to analyze the scraped data and generate reports.
+4. **Data Visualization**: Use the `DataVisualizer` class from `web_scraper.data_visualization` to create and display visualizations of the data.
+5. **Machine Learning**: The `ModelTrainer` class in `web_scraper.machine_learning` allows you to train and evaluate machine learning models on the data.
 
 ## Example
 
 ```python
-from web_scrape.content import ContentScraper
-from web_scrape.metadata import MetadataExtractor
-from web_scrape.data_analysis import DataAnalyzer
-from web_scrape.data_visualization import DataVisualizer
-from web_scrape.machine_learning import ModelTrainer
+from web_scraper.content import ContentScraper
+from web_scraper.metadata import MetadataExtractor
+from web_scraper.data_analysis import DataAnalyzer
+from web_scraper.data_visualization import DataVisualizer
+from web_scraper.machine_learning import ModelTrainer
 
 # Example usage
 scraper = ContentScraper()
