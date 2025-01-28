@@ -10,7 +10,8 @@ def chat_with_data(data):
     initial_prompt = data + """
             Use this above website data to understand its content and answer my queries based on it,
             do not use any markdowns and just output in plain text. For the first response, just let me know that
-            you did understand the contents and you are ready to answer queries based on the content.
+            you did understand the contents and you are ready to answer queries based on the content,
+            and whenever the users used this or is refer to the topic of the website, answer in brief and keep the replies short and consice and again do no use markdowns
         """
     print('\n\nAi: ', end=' ')
     conversation_history = [{'role': 'user', 'content': initial_prompt}]
@@ -27,11 +28,12 @@ def chat_with_data(data):
         if user_input.lower() in ['exit', 'quit']:
             print("Exiting chat.")
             break
+        user_input = data + user_input
         conversation_history.append({'role': 'user', 'content': user_input})
         print('\n\nAi: ', end=' ')
         stream = chat(
                 model='llama3.2',
-                messages=conversation_history,
+                messages = conversation_history,
                 stream=True,
             )
         for chunk in stream:
