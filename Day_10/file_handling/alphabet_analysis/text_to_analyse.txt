@@ -1,0 +1,6 @@
+This is the sample file
+here you will fine a fee questiosn
+basedon file handling at the end of the file
+
+
+Write a program to count the number of words, character and line in the file
