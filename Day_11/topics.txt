@@ -1,1 +1,2 @@
 (RECAP OF PREVIOUS DAY) File handling: Reading and writing files, Working with directories, Introduction to exceptions and runtime errors, try-except, raise, and assert statements, Practical exercises integrating files and exceptions.
+File handling excluded (was done on day 10)!

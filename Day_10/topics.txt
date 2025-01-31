@@ -1,1 +1,2 @@
 (RECAP OF PREVIOUS DAY) Sets and dictionaries, Built-in methods for sets and dictionaries, Looping through data structures, Introduction to regular expressions. Problems on above concepts.
+File handling was doen today!
